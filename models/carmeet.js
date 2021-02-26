@@ -6,7 +6,7 @@ const carmeetSchema = new mongoose.Schema({
   uid: String,
   isPast: Boolean,
   price: Number,
-  desc: { type: String, maxlength: 8000},
+  desc: { type: String, maxlength: 6000},
   date: { type: Date},
   country: String,
   region: String,
